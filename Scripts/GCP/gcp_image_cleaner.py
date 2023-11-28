@@ -1,6 +1,6 @@
 #
-#   
-#
+#   Script that, given a keyword, searches for images containing that name within GCP and deletes them.
+#   Specify project_id, credentials_path, image_name_contains
 
 from google.cloud import compute_v1
 from google.oauth2 import service_account
